@@ -1,0 +1,72 @@
+#tablero {
+    border-style: solid;
+    border-color: red;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr 10fr;
+    height: 100vh;
+    width: 600px;
+    gap: 5px;
+    background-color: #471c0b;
+    grid-auto-rows: 100px
+}
+
+#tablero div {
+    border-style: solid;
+    margin: 10px;
+    padding: 5px;
+}
+
+#topRight div {
+    display: grid;
+    float: right;
+    width: 60px;
+    height: 60px;
+    border: 3px solid rgb(3, 0, 0);
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ac3304; 
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 4px;
+    margin-bottom: 50px;
+}
+
+#bottomleft div {
+    display: grid;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgb(3, 0, 0);
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ac3304; 
+    margin-bottom: 2px;
+    margin-top: 10px;
+    margin-left: 7px;
+    margin-right: 15px; 
+}
+
+#bottomRight div{
+    display: grid;
+    float: right;
+    width: 60px;
+    height: 60px;
+    border: 3px solid rgb(3, 0, 0);
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ac3304; 
+    margin-left: 10px;
+    margin-top: 35px;
+    margin-right: 4px;
+    margin-bottom: 50px;
+}
+
+
+
+#bottomRight div:hover {
+    background: rgb(65, 58, 58);
+}
