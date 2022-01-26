@@ -20,7 +20,9 @@
 #topRight div {
     display: grid;
     float: right;
-    width: 60px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr 10fr;
+    width: 4vh;
     height: 60px;
     border: 3px solid rgb(3, 0, 0);
     -moz-border-radius: 50%;
@@ -36,7 +38,9 @@
 #bottomleft div {
     display: grid;
     float: right;
-    width: 40px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr 10fr;
+    width: 3vh;
     height: 40px;
     border: 3px solid rgb(3, 0, 0);
     -moz-border-radius: 50%;
@@ -52,7 +56,9 @@
 #bottomRight div{
     display: grid;
     float: right;
-    width: 60px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr 10fr;
+    width: 4vh;
     height: 60px;
     border: 3px solid rgb(3, 0, 0);
     -moz-border-radius: 50%;
